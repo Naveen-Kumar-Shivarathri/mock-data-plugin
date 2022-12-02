@@ -1,0 +1,11 @@
+Field,Type,Null,Key,seededValue,strategy
+account_type_currency_id,bigint,YES,,,
+source,bit(1),NO,,,
+destination,bit(1),NO,,,
+own,bit(1),NO,,,
+another_person,bit(1),NO,,,
+created_by,varchar(50),NO,,,
+created_date,timestamp,NO,,,
+updated_by,varchar(50),YES,,,
+updated_date,timestamp,YES,,,
+channel_id,varchar(50),NO,,,
